@@ -4,7 +4,9 @@ namespace GrinWay\EnvProcessor;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
-use GrinWay\EnvProcessor\GrinWayEnvProcessorExtension;
+use GrinWay\EnvProcessor\{
+    GrinWayEnvProcessorExtension
+};
 
 class Configuration implements ConfigurationInterface
 {
