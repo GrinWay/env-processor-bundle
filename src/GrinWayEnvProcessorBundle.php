@@ -122,16 +122,8 @@ class GrinWayEnvProcessorBundle extends AbstractBundle
     /**
      * Helper
      */
-    private function telegramUpdateHandlerPass(ContainerBuilder $builder): void
-    {
-    }
-
-    /**
-     * Helper
-     */
     private function registerCompilerPasses(ContainerBuilder $builder): void
     {
-        $this->telegramUpdateHandlerPass($builder);
         $this->hideServices($builder);
     }
 

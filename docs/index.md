@@ -1,1 +1,1 @@
-# [Docs](https://github.com/GrinWay/telegram-bundle/blob/main/README.md)
+# [Docs](https://github.com/GrinWay/env-processor-bundle/blob/main/README.md)
