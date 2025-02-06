@@ -1,5 +1,6 @@
 GrinWay/env-processor-bundle
 ======
+![Tests](https://github.com/GrinWay/env-processor-bundle/workflows/tests/badge.svg)
 [![Latest Stable Version](https://poser.pugx.org/GrinWay/env-processor-bundle/v)](//packagist.org/packages/GrinWay/env-processor-bundle)
 [![Total Downloads](https://poser.pugx.org/GrinWay/env-processor-bundle/downloads)](//packagist.org/packages/GrinWay/env-processor-bundle)
 
