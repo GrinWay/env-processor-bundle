@@ -5,6 +5,9 @@ namespace GrinWay\EnvProcessor\Exception;
 use JetBrains\PhpStorm\Internal\LanguageLevelTypeAware;
 use Symfony\Contracts\Translation\TranslatorInterface;
 
+/**
+ * @author Grigory Koblitskiy <grin180898@outlook.com>
+ */
 abstract class AbstractEnvProcessorException extends \Exception
 {
     abstract protected function doGetMessage(mixed $code, mixed $previous): string;
