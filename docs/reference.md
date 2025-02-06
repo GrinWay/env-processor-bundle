@@ -13,12 +13,15 @@ Logic depending on native `HTTPS` environment which if exists equals to `on`
 
 #### Usage:
 
-```yaml
-# "%kernel.project_dir%/config/services.yaml"
+```env
+# "%kernel.project_dir%/.env"
 
-parameters:
-    # HTTPS is the native php environment variable
-    https_string: '%env(grinway_env_http_or_https:default::HTTPS)%'
+APP_DOMAIN='127.0.0.1'
+APP_PORT_WITH_DOTS=':80'
+APP_HOST="${APP_DOMAIN}${APP_PORT_WITH_DOTS}"
+# MAGIC IS HERE
+APP_PROTOCOL="%env(grinway_env_http_or_https:default::HTTPS)%" # needs %env(resolve:<>)%
+APP_URL="%env(resolve:APP_PROTOCOL)%://${APP_HOST}"  # needs %env(resolve:<>)%
 ```
 
 ### [grinway_env_assert_absolute_path](https://github.com/GrinWay/env-processor-bundle/blob/main/src/EnvProcessor/AssertAbsolutePathVarProcessor.php) ([tests](https://github.com/GrinWay/env-processor-bundle/blob/main/tests/Unit/AssertAbsolutePathVarProcessorTest.php))
