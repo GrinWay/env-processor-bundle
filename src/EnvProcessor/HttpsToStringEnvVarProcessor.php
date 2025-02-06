@@ -40,7 +40,7 @@ class HttpsToStringEnvVarProcessor extends AbstractEnvProcessor
     {
         $env = $getEnv($name);
 
-        if ('on' === \strtolower($env)) {
+        if ('on' === \strtolower((string)$env)) {
             return 'https';
         }
 
