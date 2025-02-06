@@ -15,3 +15,5 @@ GrinWay/env-processor-bundle
 ### 🔰 [Installation](https://github.com/GrinWay/env-processor-bundle/blob/main/docs/installation.md)
 
 ### 🔗 [Reference](https://github.com/GrinWay/env-processor-bundle/blob/main/docs/reference.md)
+
+### ✅ [Supported versions](https://github.com/GrinWay/env-processor-bundle/blob/main/docs/supported-versions.md)
