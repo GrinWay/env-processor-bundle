@@ -1,0 +1,10 @@
+services:
+
+    _defaults:
+        autoconfigure: false
+        autowire: false
+
+    .grinway_env_processor.translator:
+        class: 'GrinWay\EnvProcessor\Translation\Translator'
+        arguments:
+            $t: '@translator'

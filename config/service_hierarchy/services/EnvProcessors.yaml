@@ -1,0 +1,13 @@
+services:
+
+    _defaults:
+        autoconfigure: true
+        autowire: true
+
+    GrinWay\EnvProcessor\EnvProcessor\:
+        resource: '../../../src/EnvProcessor/'
+#        arguments:
+#            $serviceLocator: !service_locator
+#                t: '@.grinway_env_processor.translator'
+        tags:
+        -   name: 'container.env_var_processor'

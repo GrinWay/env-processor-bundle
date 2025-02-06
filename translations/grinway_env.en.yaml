@@ -1,0 +1,9 @@
+exception:
+    must_be_absolute: |
+        Must be absolute, got "{path}"
+
+    file_must_exist: |
+        File must exist, got "{path}" does not exist
+
+    path_must_exist: |
+        Path must exist, got "{path}" does not exist
