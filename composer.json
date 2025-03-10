@@ -1,7 +1,7 @@
 {
   "name": "grinway/env-processor-bundle",
   "type": "symfony-bundle",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This bundle supplies commonly used symfony env processors and a handy way to create yours",
   "keywords": [
     "grinway",
